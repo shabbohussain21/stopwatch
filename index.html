@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>STOPWATCH</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+  .container{
+    background-color: #000033;
+    margin-top:20%;
+    margin-bottom: 20%;
+    border-width: bold;
+    border-color: #40ff00;
+/*    width: 100%;*/
+    height:550px;
+/*    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;*/
+    padding-top: 150px;
+  }
+  span {
+    white-space: nowrap;
+}
+</style>
+</head>
+<body>
+<div class="container border border-success rounded initial-scale" >
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+         <div class=" text-white text-center">
+            <h2>STOPWATCH</h2>
+            <p>VANILLA JAVASCRIPT STOPWATCH</p>
+            <br>
+              <h3><span id="hour">00</span>&nbsp;:&nbsp; <span id="minute">00</span>&nbsp;: &nbsp; <span id="second">00</span> &nbsp;: &nbsp;<span id="millisecond">00</span></h3>
+              <br>
+            <div class="button text-center text-white bold" >
+                <button type="button" class="btn btn-outline-success text-white bold start" id="start">Start</button>&nbsp;&nbsp;
+                <button type="button" class="btn btn-outline-success text-white bold stop">Stop</button>&nbsp;&nbsp;
+                <button type="button" class="btn  btn-outline-success text-white bold reset">Reset</button>
+            </div>
+         </div>
+    </div>
+ </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
